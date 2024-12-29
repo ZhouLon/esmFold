@@ -38,7 +38,7 @@ dependencies:
 ```conda env create -f environment.yml```
 
 ### 2. 准备 `requirement.txt`
-以下是 requirement.txt 文件的内容，用于安装 Python 依赖：
+以下是 `requirement.txt` 文件的内容，用于安装 Python 依赖：
 ```
 biopython==1.79
 deepspeed==0.5.9
@@ -68,7 +68,7 @@ pip install "fair-esm[esmfold]"
 pip install 'dllogger @ git+https://github.com/NVIDIA/dllogger.git'
 pip install 'openfold @ git+https://github.com/aqlaboratory/openfold.git@4b41059694619831a7db195b7e0988fc4ff3a307'
 ```
-### 4. TIPs(GCC 和 G++ 问题的解决方案)
+### 4. Tips (GCC 和 G++ 问题的解决方案)
 
 在安装过程中，大概率会出现 gcc 和 g++ 版本不兼容的问题，可以按以下步骤解决：
 用 Conda 安装指定版本的 gcc 和 g++：
@@ -84,7 +84,7 @@ ln -s ./x86_64-conda_cos6-linux-gnu-g++ ./g++
 ```
 ### 参考资料
 
-[OpenFold GitHub Issues #500](https://github.com/aqlaboratory/openfold/issues/500)
+[OpenFold GitHub Issues #500](https://github.com/aqlaboratory/openfold/issues/500)<br>
 [CSDN 博客：OpenFold 下载与配置](https://blog.csdn.net/weixin_52004233/article/details/140044303?ops_request_misc=%257B%2522request%255Fid%2522%253A%252277daf44805ccf6aa914cad152db8dc98%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=77daf44805ccf6aa914cad152db8dc98&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-1-140044303-null-null.142^v100^pc_search_result_base2&utm_term=openfold%E4%B8%8B%E8%BD%BD&spm=1018.2226.3001.4187)
 
 
